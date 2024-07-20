@@ -2,7 +2,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const api = axios.create({
-  baseURL: 'https://onehealth-server.onrender.com', 
+  baseURL: 'http://localhost:4500', 
   withCredentials: true,
 });
 
